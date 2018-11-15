@@ -31,8 +31,8 @@ public class Rectangle extends Polygon
         //Assemble the 4 Points
         location[0] = new Point(center.x - deltaX, center.y + deltaY);
         location[1] = new Point(center.x - deltaX, center.y - deltaY);
-        location[2] = new Point(center.x + deltaX, center.y + deltaY);
-        location[3] = new Point(center.x + deltaX, center.y - deltaY);
+        location[2] = new Point(center.x + deltaX, center.y - deltaY);
+        location[3] = new Point(center.x + deltaX, center.y + deltaY);
         
 
     }

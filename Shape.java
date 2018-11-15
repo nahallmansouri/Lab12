@@ -1,15 +1,16 @@
 import java.awt.Color;
 import java.awt.Point;
 
-public abstract class Shape extends DrawPanel implements Drawable
+public abstract class Shape implements Drawable
 {
-    protected Point[] location; 
+    protected Point [] location; 
     private Color color; 
     private boolean filled; 
 
     public Shape(Color color, boolean filled)
     {
-        
+        this.color = color;
+        this.filled = filled;
     }
     
     public Color getColor()
